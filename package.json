@@ -1,0 +1,22 @@
+{
+  "name": "skynet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "DEBUG=* nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Garvit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
